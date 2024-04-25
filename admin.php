@@ -67,15 +67,7 @@ if (!isset($_SESSION['admin_login'])) {
 
     </body>
     <script>
-        function confirmDelete(id) {
-            var result = confirm("คุณต้องการลบใช่หรือไม่?");
-            if (result) {
-                window.location.href = "delete_user.php?id=" + id;
-                console.log(window.location.href);
-            } else {
-
-            }
-        }
+       
     </script>
 
     </html>
